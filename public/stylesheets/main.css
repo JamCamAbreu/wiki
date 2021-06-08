@@ -1,0 +1,90 @@
+/* color ideas
+khaki to blue lime fade:
+--light-goldenrod-yellow: #edeec9ff;
+--nyanza: #dde7c7ff;
+--cambridge-blue: #bfd8bdff;
+--eton-blue: #98c9a3ff;
+--eton-blue-2: #77bfa3ff;
+
+
+Nice Grays:
+--baby-powder: #fbfbf2ff;
+--platinum: #e5e6e4ff;
+--timberwolf: #cfd2cdff;
+--quick-silver: #a6a2a2ff;
+--rocket-metallic: #847577ff;
+
+Wooded colors:
+--eggshell: #f0ead2ff;
+--pale-spring-bud: #dde5b6ff;
+--middle-green-yellow: #adc178ff;
+--cafe-au-lait: #a98467ff;
+--umber: #6c584cff;
+*/
+
+body {
+  padding: 20px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #f0ead2ff;
+  width:75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  color: rgb(81, 53, 36);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.subtitle {
+  color:#6c584cff;
+  margin-top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.content {
+  border:rgb(81, 53, 36) 1px solid;
+}
+
+.topbar {
+  display:flex;
+  justify-content: space-evenly;
+  border-bottom:rgb(81, 53, 36) 1px solid;
+}
+
+.topbaritem {
+  background-color:#a98467ff;
+  color: rgb(94, 29, 26);
+  text-shadow: 2px 2px 2px #0003;
+  text-align: center;
+  border:#a98467ff 1px solid;
+}
+.topbaritem:hover {
+  background-color: rgb(138, 106, 83);
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  flex-grow: 1;
+}
+
+.error {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pagecontent {
+  background-color: #c1ce7f;
+  color: rgb(81, 53, 36);
+  text-align: center;
+  padding-bottom: 6px;
+  padding-top: 2px;
+}

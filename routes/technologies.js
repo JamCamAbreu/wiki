@@ -1,10 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
+/* GET experience page. */
 router.get('/', function(req, res, next) {
-  //var params = {title: 'Abreu Wiki'};
-  res.render('home');
+  res.render('technologies');
 });
 
 module.exports = router;
