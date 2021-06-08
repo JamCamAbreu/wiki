@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'abreu'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_5a64b82bcf0f498dbcdd7dd8bb94e7da }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_f1ebbd67897a4b1d9c226ccf4ebce055 }}
         package: .
