@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/4a9f8d0e-c934-43cb-8f0d-02ecaf25506d/resourceGroups/PersonalSite/providers/Microsoft.Web/sites/abreu",
+    "appService.deploySubpath": "abreu"
+}
